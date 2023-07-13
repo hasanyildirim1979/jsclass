@@ -3,18 +3,18 @@ function myFunction3() {
     document.getElementById('demo2').style.backgroundColor = 'blue'
 }
 
-var x = 5 ;
-var y = 6 ;
-var z = x + y ;
-console.log('z değeri =', z) ;
+// var x = 5 ;
+// var y = 6 ;
+// var z = x + y ;
+// console.log('z değeri =', z) ;
 
-const değişmeyen ifadeler için kullanılır;
-ilk değer ataması zorunludur
-const price1 = 5 ;
-const price2 = 6 ;
-let total = price1 + price2 ;
-total = 15;
-console.log(total)
+// const değişmeyen ifadeler için kullanılır;
+// ilk değer ataması zorunludur
+// const price1 = 5 ;
+// const price2 = 6 ;
+// let total = price1 + price2 ;
+// total = 15;
+// console.log(total)
 
 // = işareti atama işaretidir, biz kıyaslama için == işaretini kullanıyoruz.
 
@@ -44,8 +44,8 @@ console.log(total)
 //  let b1 = 3;
 //  console.log(b1)
 // }
-// // let b1 = 5;
-// // console.log(b1)
+// let b1 = 5;
+// console.log(b1)
 
 // {
 //     var c1 = 5 ;
