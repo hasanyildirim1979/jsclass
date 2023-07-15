@@ -1,7 +1,7 @@
-function myFunction3() {
-    document.getElementById('demo2').innerHTML = 'External script çalıştı.'
-    document.getElementById('demo2').style.backgroundColor = 'blue'
-}
+// function myFunction3() {
+//     document.getElementById('demo2').innerHTML = 'External script çalıştı.'
+//     document.getElementById('demo2').style.backgroundColor = 'blue'
+// }
 
 // var x = 5 ;
 // var y = 6 ;
