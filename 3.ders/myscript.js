@@ -143,4 +143,4 @@
 // console.log(deger2)
 
 const fruits = ["Apple","Orange","Kiwi","Mango"]
-console.log(fruits.includes("Mang
+console.log(fruits.includes("Mango"))
