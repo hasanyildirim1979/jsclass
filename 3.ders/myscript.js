@@ -1,19 +1,20 @@
-// //let,const,var (başlıklar)
-// // let a = 3 ; (number)
-// // let b = "mustafa" (string)
-// // let c = [1,2,3,4,5] (array)
-// // let d = { ad:"mustafa",soyad:"onal"} (object)
+// let,const,var (başlıklar)
+// let a = 3 ; (number)
+// let b = "mustafa" (string)
+// let c = [1,2,3,4,5] (array)
+// let d = { ad:"mustafa",soyad:"onal"} (object)
 
-// // const cars = ["BMW","Volvo",3,{ad:"mustafa",soyad:"onal",yas:3}]
-// // console.log(cars)
-// // console.log(cars[0])
-// // console.log(cars.length)
-// // console.log(cars[3]["ad"])
+// const cars = ["BMW","Volvo",3,{ad:"mustafa",soyad:"onal",yas:3}]
+// console.log(cars)
+// console.log(cars[0])
+// console.log(cars.length)
+// console.log(cars[3]["ad"])
 
-// // const fruit = ["elma","portakal","şeftali"]
-// // let deger = fruit.toString()
-// // console.log(deger)
-// // console.log(deger[0])
+// const fruit = ["elma","portakal","şeftali"]
+// console.log(fruit.toString())	
+// let deger = fruit.toString()
+// console.log(deger)
+// console.log(deger[0])
 
 // // const fruit = ["elma","portakal","şeftali"]
 // // console.log(fruit.join(" - "))
