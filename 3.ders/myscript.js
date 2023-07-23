@@ -72,7 +72,7 @@
 // },{
 //     type:"BMW",year:2010
 // }]
-// // console.log(cars)
+// console.log(cars)
 
 // // console.log(cars.sort(
 // //     function(a,b) {
@@ -82,23 +82,23 @@
 // //     }
 // // ))
 
-// // console.log(cars.sort(
-// //     function(a,b) {
-// //         let x = a.type.toLowerCase();
-// //         let y = b.type.toLowerCase();
-// //         if(x<y) {return -1}
-// //         if(x>y) {return 1}   
-// //     }
-// // ))
+// console.log(cars.sort(
+//     function(a,b) {
+//         let x = a.type.toLowerCase();
+//         let y = b.type.toLowerCase();
+//         if(x<y) {return -1}
+//         if(x>y) {return 1}         
+//     }
+// ))
 
 // const numbers = [45,4,9,16]
 // let toplam = 0
 // numbers.forEach(
 //     function myFunction(value,index,array){
         
-//         // console.log(`value değeri: ${value}`)
-//         // console.log(`index değeri: ${index}`)
-//         // console.log(`array değeri: ${array}`)
+//         console.log(`value değeri: ${value}`)
+//         console.log(`index değeri: ${index}`)
+//         console.log(`array değeri: ${array}`)
 //         toplam = toplam + value
 //         console.log(numbers[index])
 //     }
