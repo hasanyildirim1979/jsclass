@@ -243,19 +243,19 @@
 // let hello = value => "Hello World" + value;
 // console.log(hello(" and Turkey"))
 
-const person1 = {
-    firstName: "ahmet",
-    description: function() {
-        return this
-    } 
-}
-console.log(person1.description())
+// const person1 = {
+//     firstName: "ahmet",
+//     description: function() {
+//         return this
+//     } 
+// }
+// console.log(person1.description())
 
-const person2 = {
-    firstName: "ahmet",
-    description: () => this
+// const person2 = {
+//     firstName: "ahmet",
+//     description: () => this
     
-}
-console.log(person2.description())
-console.log(this)
+// }
+// console.log(person2.description())
+// console.log(this)
 //arrow fonksiyonu içindeki this kendi kapsamını değil global kapsamı gösterir.
