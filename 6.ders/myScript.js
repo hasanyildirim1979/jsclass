@@ -75,21 +75,21 @@
 
 //class detail 
 
-// class Car {
-//     constructor(name) {
-//         this.name = name
-//     }
-//     hello(){
-//         return "Hello!"
-//     }
-//     static hello2(){
-//         return "Static Hello!"
-//     }
-// }
+class Car {
+    constructor(name) {
+        this.name = name
+    }
+    // hello(){
+    //     return "Hello!"
+    // }
+    static hello2(){
+        return "Static Hello!"
+    }
+}
 // let myCar = new Car("Ford")
 // console.log(myCar.hello())
-// console.log(Car.hello2())
-// console.log(myCar)
+console.log(Car.hello2())
+console.log(Car)
 
 // class Person {
 //     constructor(name,age){
@@ -154,16 +154,16 @@
 // let result = myCalculator(3,4)
 // myDisplayer(result)
 
-function myDisplayer(some){
-    console.log(some)
-}
-//düzeltme var
-function myCalculator(num1,num2,myCallback = () => {}){
-    let sum = num1 + num2 ;
-    console.log("calculator fonksiyonu çalıştı")
-    myCallback(sum)
-}
-myCalculator(2,3)
+// function myDisplayer(some){
+//     console.log(some)
+// }
+// //düzeltme var
+// function myCalculator(num1,num2,myCallback = () => {}){
+//     let sum = num1 + num2 ;
+//     console.log("calculator fonksiyonu çalıştı")
+//     myCallback(sum)
+// }
+// myCalculator(2,3)
 
 //settime , setinterval
 
@@ -187,9 +187,9 @@ myCalculator(2,3)
 //     function(error) {kod başarısız olduğunda}
 // )
 
-function myDisplayer(some){
-    console.log(some)
-}
+// function myDisplayer(some){
+//     console.log(some)
+// }
 // let myPromise = new Promise(function(myResolve,myReject){
 //     let x = 4;
 //     if(x == 0) {
