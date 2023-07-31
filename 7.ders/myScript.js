@@ -44,7 +44,7 @@
 //     console.log("promise bitti")
 //     return response
 // }
-// test(null).then(resolve => console.log(resolve), reject => console.log(reject))
+// test("değer").then(resolve => console.log(resolve), reject => console.log(reject))
 
 // async function testData(data) {
 //     let promise = new Promise((resolve,reject)=> {
@@ -60,12 +60,12 @@
 //     const response = await promise;
 //     return response
 // }
-// testData(24)
+// testData("data")
 // .then(data => console.log(data))
 // .catch(err => console.log(err))
 
 // const a = new Error("error")
-// console.log(a.stack)
+// console.log(a.)
 
 //dom (document object model)
 
@@ -81,15 +81,15 @@
 // document.getElementById("image").width = "300"
 // document.getElementById("image").height = "300"
 
-function validateForm(){
-    let x = document.forms["myForm"]["fname"].value
-    console.log(x)
-    if(!isNaN(x)) {
-        alert("isim yazmak zorunludur")
-        return false;
-    }
-    alert("giriş başarılı")
-}
+// function validateForm(){
+//     let x = document.forms["myForm"]["fname"].value
+//     console.log(x)
+//     if(!isNaN(x)) {
+//         alert("isim yazmak zorunludur")
+//         return false;
+//     }
+//     alert("giriş başarılı")
+// }
 
 
 // document.getElementById("p2").style.color = "blue"
@@ -118,38 +118,38 @@ function validateForm(){
 //     obj.innerHTML = "Mouse Over Me"
 // }
 
-// // document.getElementById("myBtn").addEventListener("click",function(){
-// //     alert("Hello World")
-// // })
+// document.getElementById("myBtn").addEventListener("click",function(){
+//     alert("Hello World")
+// })
 
-// // var x = document.getElementById("myBtn");
-// // x.addEventListener("mouseover",myFunction);
-// // x.addEventListener("click",mySecondFunction)
-// // x.addEventListener("mouseout",myThirdFunction)
+// var x = document.getElementById("myBtn");
+// x.addEventListener("mouseover",myFunction);
+// x.addEventListener("click",mySecondFunction)
+// x.addEventListener("mouseout",myThirdFunction)
 
-// // function myFunction(){
-// //     document.getElementById("demo").innerHTML += "Moused over!<br>"
-// // }
-// // function mySecondFunction(){
-// //     document.getElementById("demo").innerHTML += "Clicked!<br>"
-// // }
-// // function myThirdFunction(){
-// //     document.getElementById("demo").innerHTML += "Moused Out!<br>"
-// // }
+// function myFunction(){
+//     document.getElementById("demo").innerHTML += "Moused over!<br>"
+// }
+// function mySecondFunction(){
+//     document.getElementById("demo").innerHTML += "Clicked!<br>"
+// }
+// function myThirdFunction(){
+//     document.getElementById("demo").innerHTML += "Moused Out!<br>"
+// }
 
 // // a = a + 1
 // // a += "1"
 
-// //default bubbling (false)
-// // document.getElementById("myP1").addEventListener("click",function(){
-// //     alert("myP1")
-// // }, false)
-// // document.getElementById("myDiv1").addEventListener("click",function(){
-// //     alert("myDİV1")
-// // }, false)
-// // document.getElementById("myP2").addEventListener("click",function(){
-// //     alert("myP2")
-// // }, true)
-// // document.getElementById("myDiv2").addEventListener("click",function(){
-// //     alert("myDiv2")
-// // }, true)
+// default bubbling (false)
+document.getElementById("myP1").addEventListener("click",function(){
+    alert("myP1")
+}, false)
+document.getElementById("myDiv1").addEventListener("click",function(){
+    alert("myDİV1")
+}, false)
+document.getElementById("myP2").addEventListener("click",function(){
+    alert("myP2")
+}, true)
+document.getElementById("myDiv2").addEventListener("click",function(){
+    alert("myDiv2")
+}, true)

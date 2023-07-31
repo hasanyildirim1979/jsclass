@@ -75,21 +75,21 @@
 
 //class detail 
 
-class Car {
-    constructor(name) {
-        this.name = name
-    }
-    // hello(){
-    //     return "Hello!"
-    // }
-    static hello2(){
-        return "Static Hello!"
-    }
-}
-// let myCar = new Car("Ford")
-// console.log(myCar.hello())
-console.log(Car.hello2())
-console.log(Car)
+// class Car {
+//     constructor(name) {
+//         this.name = name
+//     }
+//     // hello(){
+//     //     return "Hello!"
+//     // }
+//     static hello2(){
+//         return "Static Hello!"
+//     }
+// }
+// // let myCar = new Car("Ford")
+// // console.log(myCar.hello())
+// console.log(Car.hello2())
+// console.log(Car)
 
 // class Person {
 //     constructor(name,age){
@@ -157,7 +157,6 @@ console.log(Car)
 // function myDisplayer(some){
 //     console.log(some)
 // }
-// //düzeltme var
 // function myCalculator(num1,num2,myCallback = () => {}){
 //     let sum = num1 + num2 ;
 //     console.log("calculator fonksiyonu çalıştı")
@@ -187,11 +186,11 @@ console.log(Car)
 //     function(error) {kod başarısız olduğunda}
 // )
 
-// function myDisplayer(some){
-//     console.log(some)
-// }
+function myDisplayer(some){
+    console.log(some)
+}
 // let myPromise = new Promise(function(myResolve,myReject){
-//     let x = 4;
+//     let x = 0;
 //     if(x == 0) {
 //         myResolve("OK")
 //     } else {
@@ -213,22 +212,22 @@ console.log(Car)
 // .finally(console.log("işlem tamamlandı"))
 
 //düzeltme var
-// function myPromise(){
-//     let x = 1 ;
-//     if(x == 0) {
-//         return Promise.resolve("OK") 
-//     }
-//     else
-//     {
-//         return Promise.reject("Error")
-//     }
+function myPromise(){
+    let x = 1 ;
+    if(x == 0) {
+        return Promise.resolve("OK") 
+    }
+    else
+    {
+        return Promise.reject("Error")
+    }
     
-// }
-// myPromise()
-// .then(function(value){
-//     myDisplayer(value)
-// })
-// .catch(function(error){
-//     myDisplayer(error)
-// })
-// .finally(console.log("işlem tamamlandı"))
+}
+myPromise()
+.then(function(value){
+    myDisplayer(value)
+})
+.catch(function(error){
+    myDisplayer(error)
+})
+.finally(console.log("işlem tamamlandı"))
